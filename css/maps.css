@@ -1,0 +1,253 @@
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 100%;
+}
+
+
+.map_container {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+      html, body, #map-canvas {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      table,td,tr,th{
+        border:1px solid #BBB;
+        border-spacing:0;
+        border-collapse:collapse;
+        padding: 8px;
+      }
+
+
+       .glabels {
+         color: black;
+         font-family: "Lucida Grande", "Arial", sans-serif;
+         font-size: 15px;
+         font-weight: bold;
+         text-align: center;
+         width: auto;
+         white-space: nowrap;
+         background: #FFF;
+         padding: 2px;
+         border: 1px solid black;
+       }
+
+#footer {
+    font-size: 70%;
+}
+#footer {
+    background: none repeat scroll 0 0 #333333;
+    border-top: -2px solid #000000;
+    margin-top: -20px;
+    bottom: 0;
+    color: #C2C2C2;
+    display: block;
+    padding: -10px 0 1px;
+    position: fixed;
+    width: 100%;
+    height: 22px;
+    z-index: 9999;
+}
+
+
+#footer p {
+    margin: 0;
+}
+
+#footer img {
+    margin-left: 15px;
+    padding-right: 5px;
+}
+
+#header {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border-bottom: 7px solid #00A1C7 !important;
+    padding: 10px 20px 5px;
+    position: relative;
+}
+
+#oted {
+    color: #00A1C7;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    text-align: right;
+    text-transform: uppercase;
+    top: 33px;
+}
+#titulo {
+    color: #00A1C7;
+    height: 30px;
+    position: absolute;
+    left: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 33px;
+}
+
+
+
+
+.filtro_map {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+    border-radius: 5px 5px 5px 5px;
+    top: 80px;
+    left: 20px;
+    margin: 0 !important;
+    padding: 7px 12px !important;
+    position: absolute;
+}
+
+.coordenadas_map {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+    border-radius: 5px 5px 5px 5px;
+    top: 380px;
+    left: 20px;
+    margin: 0 !important;
+    padding: 7px 12px !important;
+    position: absolute;
+}
+
+.preguntas_sub2 {
+    font-size: 11px !important;
+    line-height: 20px !important;
+    margin-bottom: 1px !important;
+    margin-top: 1px !important;
+    padding: 8px 10px !important;
+    text-align: left;
+}
+
+.preguntas_sub2 {
+    font-size: 11px !important;
+    line-height: 20px !important;
+    margin-bottom: 1px !important;
+    margin-top: 1px !important;
+    padding: 8px 10px !important;
+    text-align: left;
+}
+
+.filtro_map .control-group .controls {
+    margin-left: 0;
+}
+
+
+#footer .row-fluid [class*="span"] {
+    min-height: 15px;
+    margin-top: 0px;
+}
+
+
+#footer .span3{height: auto; padding-top: 0}
+
+.filtro_map .control-group {
+    margin-left: 0;
+}
+
+#map-canvas img {
+  max-width: none;
+}
+
+#map-canvas label {
+  width: auto; display:inline;
+}
+
+
+#footer .pull-right {
+    color: #F4EB13;
+}
+
+
+.marker {
+ height: 260px;
+    width: 380px;
+}
+
+.markerInfo {
+    color: #333333;
+    display: none;
+    font-size: 12px;
+    padding: 10px 15px;
+    width: 340px;
+    z-index: 1002;
+}
+
+.markerInfo a {
+color: #333;
+position: relative;
+z-index: 2;
+}
+
+.markerInfo h2 {
+    border-bottom: 2px solid #00A1C7;
+    color: #00A1C7;
+    display: block;
+    font-size: 20px !important;
+    font-weight: normal;
+    line-height: 25px !important;
+    margin: 20px 0 10px;
+    padding-bottom: 0;
+}
+
+.markerInfo h2 a{
+    font-size: 20px !important;
+    line-height: 25px !important;
+    font-weight: 400 !important;
+}
+
+.markerInfo h3 {
+    border-bottom: 2px solid #00A1C7;
+    color: #00A1C7;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 25px;
+    margin: 20px 0 10px;
+    padding-bottom: 0;
+}
+
+.markerInfo h2 a {
+color: #00A1C7;
+}
+
+.markerInfo h2 a:hover {
+text-decoration: none;
+}
+
+.markerInfo p {
+font-family: 'Open Sans', sans-serif;
+line-height: 1.2em !important;
+margin-bottom: 6px;
+}
+
+strong, b {
+font-weight: bold;
+}
+
+
+html, body, h1, h2, h3, h4, h5 { font-family: 'Open Sans', sans-serif; }
+
+
+.detalle{
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+  
+.detalle a{
+  font-style: italic;
+  color: #F10827 !important;
+}
+
+.table th {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: 1px solid #808080 !important;
+    font-weight: bold;
+}
+
+
+.table tbody tr td, 
+.table thead tr th {
+    text-align: center;
+}
